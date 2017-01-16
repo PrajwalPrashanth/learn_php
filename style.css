@@ -1,0 +1,26 @@
+body
+	{
+	background-color: #000000;
+	background-image:url(DSC_7572.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: 50% 95%;
+	}
+
+.1class
+{
+	color:white;
+}
+h1
+{
+	color: #030833;
+}
+p
+{
+	color: #4d1e04;
+}
+h3
+{
+	color:green;
+}
