@@ -7,14 +7,21 @@
 	$today = date ('d-m-Y');
 	$present_year =date ('Y');
 	$age = ($present_year - $birth_year);
+	$array_var = array("ele1","ele2","ele3");
 ?>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<!--<link rel="stylesheet" type="text/css" href="style.css" />-->
 		<title><?php echo TITLE; ?></title>
 	</head>
 	<body>
-		<div class="1class">
+		<h3>array</h3>
+		<ol>
+			<li><?php echo $array_var[0]; ?></li>
+			<li><?php echo $array_var[1]; ?></li>
+			<li><?php echo $array_var[2]; ?></li>
+		</ol>
+		<!--<div class="1class">-->
 		<h1><?php echo TITLE; ?></h1> <br />
 		<p>
 			<h3>Today's Date</h3> <br />
@@ -35,6 +42,6 @@
 		<p>
 			&copy; <?php echo $present_year; echo $my_name; ?>
 		</p>
-		</div>
+		<!--</div>-->
 	</body>
 </html>
