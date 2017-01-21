@@ -7,7 +7,7 @@
 	$today = date ('d-m-Y');
 	$present_year =date ('Y');
 	$age = ($present_year - $birth_year);
-	$array_var = array("ele1","ele2","ele3");
+	$array_var = array("ondu" => "ele1", "erdu" => "ele2", "mooru" => "ele3");
 ?>
 <html>
 	<head>
@@ -17,9 +17,9 @@
 	<body>
 		<h3>array</h3>
 		<ol>
-			<li><?php echo $array_var[0]; ?></li>
-			<li><?php echo $array_var[1]; ?></li>
-			<li><?php echo $array_var[2]; ?></li>
+			<li><?php echo $array_var['ondu']; ?></li>
+			<li><?php echo $array_var['erdu']; ?></li>
+			<li><?php echo $array_var['mooru']; ?></li>
 		</ol>
 		<!--<div class="1class">-->
 		<h1><?php echo TITLE; ?></h1> <br />
